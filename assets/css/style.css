@@ -34,7 +34,18 @@ header {
 
 header a {
     text-decoration: none;
-    color: inherit
+    color: inherit; 
+}
+
+h1 {
+
+    font-family: 'Oswald', sans-serif;
+
+    text-transform: uppercase;
+
+    letter-spacing: 2px;
+
+    color: #252525;
 }
 
 #menu {
@@ -75,12 +86,7 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
 }
-h1 {
-    font-family: "oswald", sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
-}
+
 
 /* Main content*/
 main {
@@ -109,7 +115,7 @@ footer {
         display: flex;
     }
     #menu > li {
-        padding-left: 1em;
+        padding-left: 1rem;
     }
 
     .nav-toggle-label {
@@ -117,7 +123,7 @@ footer {
     }
 
     #logo {
-        font-size: 200%;
+        font-size: 280%;
         line-height: 75px;
         margin: 0 0.5rem;
     }
