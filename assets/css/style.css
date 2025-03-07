@@ -93,6 +93,8 @@ main {
   /* Make main element take up any surplus space to push footer down */
   flex: 1 0 auto;
   margin-top: 47px;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Hero section */
@@ -148,7 +150,7 @@ main {
 }
 
 #circle-cover-bg {
-  background: url("../images/reasons-image.webp") no-repeat top center/cover;
+  background: url("../images/reasons-image.webp");
   height: 90vw;
   width: 90vw;
   margin-bottom: 20px;
@@ -194,6 +196,16 @@ main {
 }
 #photos {
     line-height: 0;
+}
+
+/* Sign Up Page */
+
+#signup {
+    background-image: url("../images/signup-image.webp");
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
 }
 
 /* Footer */
